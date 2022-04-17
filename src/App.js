@@ -7,9 +7,9 @@ import Services from './Components/Services/Services';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Intro/>
-      <Services/>
+      <Navbar />
+      <Intro />
+      <Services />
     </div>
   );
 }
