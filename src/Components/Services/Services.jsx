@@ -21,7 +21,6 @@ const Services = () => {
                     <button className="button s-button">Download Cv</button>
                 </a>
                 <div className="blur s-blur1" style={{ background: '#ABF1FF94' }}></div>
-
             </div>
             {/* right side */}
             <div className="cards">
