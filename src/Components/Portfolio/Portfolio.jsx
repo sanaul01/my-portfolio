@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import './Portfolio.css'
-import {Swiper, SwiperSlide} from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import sidebar from '../../images/sidebar.png';
 import ecommerce from '../../images/ecommerce.png';
 import HOC from '../../images/hoc.png';
@@ -15,7 +15,7 @@ const Portfolio = () => {
         <div className="portfolio">
 
             {/* heading */}
-            <span style={{color: darkMode? 'white' : ''}}>Recent Project</span>
+            <span style={{ color: darkMode ? 'white' : '' }}>Recent Project</span>
             <span>Portfolio</span>
 
             {/* slider */}
@@ -28,7 +28,7 @@ const Portfolio = () => {
                 <SwiperSlide>
                     <img src={sidebar} alt="" />
                 </SwiperSlide>
-                
+
                 <SwiperSlide>
                     <img src={ecommerce} alt="" />
                 </SwiperSlide>

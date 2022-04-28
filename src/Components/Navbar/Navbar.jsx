@@ -7,11 +7,11 @@ const Navbar = () => {
         <div className="n-wrapper">
             <div className="n-left">
                 <div className="n-name">Sanaul</div>
-                <Toggle/>
+                <Toggle />
             </div>
             <div className="n-right">
                 <div className="n-list">
-                    <ul style={{listStyle: 'none'}}>
+                    <ul style={{ listStyle: 'none' }}>
                         <li>Home</li>
                         <li>Services</li>
                         <li>Experiences</li>

@@ -10,7 +10,7 @@ import { themeContext } from '../../Context';
 const Works = () => {
 
     const theme = useContext(themeContext);
-  const darkMode = theme.state.darkMode;
+    const darkMode = theme.state.darkMode;
 
 
     return (
@@ -18,17 +18,17 @@ const Works = () => {
 
             {/* left side */}
             <div className="awesome">
-                <span style={{color: darkMode? 'white' : ''}}>Works for All these</span>
+                <span style={{ color: darkMode ? 'white' : '' }}>Works for All these</span>
                 <span>Brands & Clients</span>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
                     <br />
                     aut sequi illo voluptatem tenetur quam?
                     <br />
-                    aut sequi illo voluptatem tenetur quam aut sequi illo 
+                    aut sequi illo voluptatem tenetur quam aut sequi illo
                     <br />
                     Lorem ipsum dolor sit amet consectetur
                 </span>
-                    <button className="button s-button">Hire me</button>
+                <button className="button s-button">Hire me</button>
                 <div className="blur s-blur1" style={{ background: '#ABF1FF94' }}></div>
             </div>
 

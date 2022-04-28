@@ -22,7 +22,7 @@ const Intro = () => {
         <div className="intro">
             <div className="i-left">
                 <div className="i-name">
-                    <span style={{color: darkMode? 'white': ''}}>Hy! I am</span>
+                    <span style={{ color: darkMode ? 'white' : '' }}>Hy! I am</span>
                     <span>Sanaul Islam</span>
                     <span>Full Stack Developer with heigh level of exdperience in web designing and development, producting the Quality work.</span>
                 </div>

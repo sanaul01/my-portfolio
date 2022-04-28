@@ -16,7 +16,7 @@ const Services = () => {
         <div className="services">
             {/* left side */}
             <div className="awesome">
-                <span style={{color: darkMode? 'white' : ''}}>My Awesome</span>
+                <span style={{ color: darkMode ? 'white' : '' }}>My Awesome</span>
                 <span>Services</span>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
                     <br />
