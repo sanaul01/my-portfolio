@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Testimonials.css';
 import {Swiper, SwiperSlide} from "swiper/react";
 import profilePic1 from '../../images/profile1.jpg'

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Github from '../../images/github.png';
 import Linkedin from '../../images/linkedin.png';
 import Instagram from '../../images/instagram.png';
@@ -10,13 +10,19 @@ import glassesimoji from '../../images/glassesimoji.png'
 import Boy from '../../images/boy.png';
 import './Intro.css'
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
+import { themeContext } from '../../Context';
 
 const Intro = () => {
+
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
+
+
     return (
         <div className="intro">
             <div className="i-left">
                 <div className="i-name">
-                    <span>Hy! I am</span>
+                    <span style={{color: darkMode? 'white': ''}}>Hy! I am</span>
                     <span>Sanaul Islam</span>
                     <span>Full Stack Developer with heigh level of exdperience in web designing and development, producting the Quality work.</span>
                 </div>
